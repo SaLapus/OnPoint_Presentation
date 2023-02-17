@@ -1,0 +1,84 @@
+.Title-content {
+  font-size: 6.81rem;
+
+  display: flex;
+  flex-direction: column;
+
+  width: min-content;
+
+  margin-top: 5vh;
+}
+
+.Title-content > div {
+  align-self: flex-start;
+}
+
+.Title-header {
+  font-size: 1.75rem;
+}
+
+.Title-inline {
+  width: 100%;
+
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Title-inline-button {
+  width: 288px;
+  height: 5.5rem;
+
+  padding: 0;
+  border: none;
+
+  background-color: #ff6699;
+
+  border-radius: 2.75rem;
+
+  font-size: 1.8rem;
+
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.Title-inline-wrap {
+  height: calc(5.5rem / 2 + 8px);
+  width: calc(5.5rem / 2 + 8px);
+
+  margin-left: calc(5.5rem / 4 - 4px);
+  margin-top: calc(5.5rem / 4 - 4px);
+  margin-bottom: calc(5.5rem / 4 - 4px);
+  margin-right: 0px;
+
+  border-radius: calc(5.5rem / 2 + 4px);
+
+  background: linear-gradient(135deg, #b34f79 0%, #ff99cc 100%);
+}
+
+.Title-inline-icon {
+  --icon-height: calc(5.5rem / 2);
+  --half-icon-height: calc(5.5rem / 4);
+
+  height: var(--icon-height);
+  width: var(--icon-height);
+
+  position: relative;
+
+  top: 4px;
+  left: 4px;
+
+  border-radius: var(--half-icon-height);
+
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title-inline-button > div:last-child {
+  padding-left: 10px;
+}

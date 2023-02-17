@@ -1,0 +1,32 @@
+.Nested.Page {
+  margin-left: 20vw;
+  width: 70vw;
+}
+
+.Nested.title {
+  margin-top: 5vh;
+  text-align: left;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.Nested.title-header {
+  order: 1;
+  font-size: 1.5rem;
+}
+
+.Nested.title-main {
+  order: 3;
+  font-size: 6rem;
+  width: 100%;
+}
+
+.Nested.title-close {
+  order: 2;
+}
+
+.Nested.view {
+  text-align: start;
+}

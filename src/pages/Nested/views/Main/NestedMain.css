@@ -1,0 +1,37 @@
+.NestedMain-view {
+  height: 40vh;
+  width: 60vw;
+
+  margin-top: 5vh;
+
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 2fr 1fr;
+
+  row-gap: 5vmin;
+  column-gap: 5vmin;
+}
+
+.NestedMain-view > div {
+  background-color: white;
+  border-radius: 40px;
+  font-size: 1.5rem;
+  box-shadow: 0px 0px 20px 10px #768488bd;
+
+  padding: 1.5vmin;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NestedMain-view > div:first-child {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.NestedMain-view button {
+  border-radius: 50px;
+  background-color: #ff6699;
+}

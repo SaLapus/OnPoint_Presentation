@@ -1,0 +1,81 @@
+.Text-title {
+  height: 10vh;
+
+  text-align: start;
+  font-size: 2rem;
+  margin-bottom: 2vh;
+}
+
+.Text-content.wrap {
+  height: 60vh;
+  width: 80vw;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.Text-content.wrap > .scroll {
+  position: relative;
+
+  width: 40px;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.Text-content.scroll > .thumb {
+  position: absolute;
+
+  width: 20px;
+  height: 100px;
+
+  top: 0px;
+  z-index: 100;
+
+  background-color: #cf578d;
+
+  box-shadow: inset 5px 5px 10px #993366, inset -5px -5px 10px #cc99cc;
+  border-radius: 10px;
+}
+
+.Text-content.scroll > .track {
+  position: relative;
+
+  height: 100%;
+  width: 5px;
+
+  top: 0px;
+  z-index: 50;
+
+  background-color: black;
+  border-radius: 5px;
+}
+
+.Text-content.view {
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  height: 100%;
+  width: 70vw;
+
+  font-size: 1.5rem;
+
+  background-color: white;
+  border-radius: 5vh;
+
+  font-size: 1.5rem;
+
+  box-shadow: 0px 0px 6px 0px #d0d0d0;
+}
+
+.Text-content.view::-webkit-scrollbar {
+  display: none;
+}
+
+.Text-content.text-wrap {
+  padding: 2vh;
+
+  box-sizing: border-box;
+}
